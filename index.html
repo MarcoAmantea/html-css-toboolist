@@ -9,18 +9,21 @@
 </head>
 
 <body>
+    <!-- header con logo e titolo -->
     <header>
         <div class="header">
             <img class="logo" src="./img/Logo.png" alt="logo boolean">
             <strong class="title-logo">Toboolist</strong>
         </div>
     </header>
+    <!-- contenitore e barra di navigazione con bottoni -->
     <div class="container">
         <nav>
             <button class="button-one">Add Task</button>
             <button class="button-two">Add Section</button>
         </nav>
         <hr>
+        <!-- creazione del main e relative liste annidate     -->
         <main>
             <ol>
                 <li>
@@ -28,8 +31,31 @@
                     <ul>
                         <li>
                             <span class="valid">&#x2713;</span>
-                            <span class="subtitle-list">Quarterly newsletter</span>
+                            <span class="subtitle-list sublist">Quarterly newsletter</span>
                             <span class="backblue">Editorial</span>
+                        </li>
+                    </ul>
+                    <strong class="title-list">⯆ Today</strong>
+                    <ul>
+                        <li class="sublist">
+                            <span class="valid">&#x2713;</span>
+                            <span class="subtitle-list">Recruiting blog Post</span>
+                            <span class="backblue">Editorial</span>
+                        </li>
+                        <li class="sublist">
+                            <span class="valid">&#x2713;</span>
+                            <span class="subtitle-list">Mobile App launch</span>
+                            <span class="backviolet">Q1 Goals</span>
+                        </li>
+                        <li class="sublist">
+                            <span class="invalid">&#10005;</span>
+                            <span class="subtitle-list">Interview John H.</span>
+                            <span class="backgreen">Recruiting</span>
+                        </li>
+                        <li class="sublist">
+                            <span class="valid">&#x2713;</span>
+                            <span class="subtitle-list">Summit update to mobile storefonts</span>
+                            <span class="backorange">Editorial</span>
                         </li>
                     </ul>
                 </li>

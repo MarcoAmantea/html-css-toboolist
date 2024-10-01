@@ -92,3 +92,35 @@ ul{
 .subtitle-list{
     font-size: 20px;
 }
+.backviolet{
+    background-color: rgb(156 114 228);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.invalid{
+    height: 25px;
+    width: 25px;
+    border: rgb(236 99 92) solid;
+    color: rgb(236 99 92);
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-left: 60px;
+    display: inline-block;
+    text-align: center;
+}
+.backgreen{
+    background-color: #64bfa9;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.backorange{
+    background-color: orange;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.sublist{
+    margin-top: 20px;
+}
