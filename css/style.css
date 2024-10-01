@@ -19,3 +19,42 @@ body{
 .title-logo{
     vertical-align: middle;
 }
+.container{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    border: 1px;
+    height: 550px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.button-one{
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #47adf1;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.button-two{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+hr{
+    border:0;
+    color: lightgray;
+    background: lightgray;
+    height: 1px;
+}
