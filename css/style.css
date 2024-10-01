@@ -58,3 +58,37 @@ hr{
     background: lightgray;
     height: 1px;
 }
+.title-list{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+.valid{
+    height: 25px;
+    width: 25px;
+    border: #64bfa9 solid;
+    color: #64bfa9;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-left: 60px;
+    display: inline-block;
+    text-align: center;
+}
+ol{
+    list-style: none;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.backblue{
+    background-color: #47adf1;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    
+}
+.subtitle-list{
+    font-size: 20px;
+}
