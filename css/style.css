@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: lightgray;
+    background-color: hsl(200deg 20% 97.06%);
 }
 .header{
     font-size: 50px;
@@ -24,7 +24,7 @@ body{
     width: 80%;
     max-width: 1200px;
     border: 1px;
-    height: 550px;
+    height: 650px;
     margin-top: 40px;
     background-color: white;
     border-radius: 5px;
@@ -54,8 +54,8 @@ body{
 }
 hr{
     border:0;
-    color: lightgray;
-    background: lightgray;
+    color: hsl(200deg 20% 97.06%);
+    background: hsl(200deg 20% 97.06%);
     height: 1px;
 }
 .title-list{
@@ -123,4 +123,16 @@ ul{
 }
 .sublist{
     margin-top: 20px;
+}
+.backrose{
+    background-color: hsl(328.21deg 60% 61.76%);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.backgreen-two{
+    background-color: hsl(69.2deg 68.2% 46.86%);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
 }
